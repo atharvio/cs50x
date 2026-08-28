@@ -3,10 +3,19 @@
 
 int main(void)
 {
-    int x = get_int("What's x? ");
-    int y = get_int("What's y? ");
+    long dollars = 1;
 
-    int z = x + y;
+    while (true)
+    {
+        char c = get_char("Here's $%li. Double it and give it to the next person? ", dollars);
 
-    printf("%i\n", z);
+        if (c == 'y')
+        {
+            dollars *= 2;
+        }
+        else
+        {
+            break;
+        }
+    }
 }
