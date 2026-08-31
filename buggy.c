@@ -3,7 +3,8 @@
 
 void print_column(int height)
 {
-    for (int i = 0; i <= height; i++)
+    // Changed '<=' to '<' so it runs exactly 'height' times
+    for (int i = 0; i < height; i++)
     {
         printf("#\n");
     }
