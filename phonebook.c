@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
+typedf
 int main (void)
 {
     string names[] = {"Kelly", "David", "john",};
